@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+:root{
+    --cor-principal:#d06711f2;
+    --cor-secundaria:#7b7bc2;
+    --cor-destaque:#18c718;
+}
+
 body{
-    background-color: chocolate;
+    font-family: "Maven Pro", sans-serif;
+    color: var(--cor-principal);
+    background-color: var(--cor-destaque);
 }
 
-h1{
-    color: #FFFFFF;
-    text-align: center;
-    font-family: 'Maven Pro';
-    background-color: black;
-}
-
-img{
-    width: 50px;
-}
-
-ul{
-    font-size: 40px;
+h1,h2,h5{
+    color: var(--cor-secundaria);
+    font-weight: 700;
 }

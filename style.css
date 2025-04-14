@@ -7,4 +7,13 @@ h1{
     color: #FFFFFF;
     text-align: center;
     font-family: 'Maven Pro';
+    background-color: black;
+}
+
+img{
+    width: 50px;
+}
+
+ul{
+    font-size: 40px;
 }
